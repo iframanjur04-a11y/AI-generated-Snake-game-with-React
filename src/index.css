@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #050507;
+  --color-bg-card: #111116;
+  --color-accent-cyan: #00f2ff;
+  --color-accent-pink: #ff007b;
+  --color-accent-green: #39ff14;
+  --color-text-secondary: #8a8a99;
+  --color-border-subtle: #2d2d3d;
+
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-primary);
+    color: white;
+  }
+}
